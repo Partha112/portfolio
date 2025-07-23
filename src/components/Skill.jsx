@@ -5,7 +5,7 @@ const Skill = () => {
     <div>
       <section className="skill flex items-center justify-center w-full h-screen">
         <div>
-          <p1>Skill</p1>
+          <h1>Skill</h1>
         </div>
       </section>
     </div>

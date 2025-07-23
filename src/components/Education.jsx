@@ -5,7 +5,7 @@ const Education = () => {
     <div>
       <section className="education flex items-center justify-center w-full h-screen">
         <div>
-          <p1>education</p1>
+          <h1>education</h1>
         </div>
       </section>
     </div>
