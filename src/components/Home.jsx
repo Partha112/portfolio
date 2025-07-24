@@ -1,9 +1,8 @@
 import React from "react";
-import user from '../assets/user.jpg';
 
 const Home = () => {
   return (
-    <section className="w-full min-h-screen">
+    <section id="home" className="home w-full min-h-screen">
       <div className="w-full min-h-screen flex gap-8 items-center justify-center">
         <div className="flex flex-col w-1/2 p-50">
           <h4 className="text-xl font-semibold text-blue-500 font-paragraph uppercase">
@@ -17,7 +16,7 @@ const Home = () => {
           </h4>
           <div className="mt-8 flex flex-wrap gap-6 ">
             <button className=" w-24 h-12 justify-center rounded-lg bg-violet-500 text-paragraph cursor-pointer">
-              <a href="https://imagekit.io/public/share/parthapp/cd14919363c058b34da2d6a35f8dfaebba97099640eded2b47f67bad74e24de09104308b71c74cb1d9b4557e41eb1581b27d681ac1130c0e05c85e4d26be1df1f96d1f55ccbc2778a19dc2fe5c94cac5">
+              <a href="https://imagekit.io/public/share/parthapp/cd14919363c058b34da2d6a35f8dfaebba97099640eded2b47f67bad74e24de09104308b71c74cb1d9b4557e41eb1581b27d681ac1130c0e05c85e4d26be1df1f96d1f55ccbc2778a19dc2fe5c94cac5" target="_blank">
                 Resume
               </a>
             </button>
@@ -28,7 +27,7 @@ const Home = () => {
         </div>
         <div className="w-1/2">
           <div className="mb-60 px-20 items-center justify-center">
-            <img src='https://ik.imagekit.io/parthapp/download.png?updatedAt=1752956046407' alt="user" className="mt-50 max-h-96 w-96 rounded-full border-muted/50" />
+            <img src='https://ik.imagekit.io/parthapp/download.png?updatedAt=1752956046407' alt="Partha" className="mt-50 max-h-96 w-96 rounded-full border-muted/50" />
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Skill from "./components/Skill";
+import Project from "./components/Projects";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Fotter from "./components/Fotter";
@@ -31,6 +32,7 @@ const App = () => {
       <Home />
       <About />
       <Skill />
+      <Project/>
       <Education />
       <Contact />
       <GoToTop />

@@ -23,3 +23,17 @@ body {
 .font-paragraph {
   font-family: "Inter", sans-serif;
 }
+
+.blue {
+  color :blueviolet;
+  font-size: 20px;
+}
+
+.skill {
+  padding-left: 0.75rem;  /* 12px */
+  padding-right: 0.75rem; /* 12px */
+  padding-top: 0.25rem;   /* 4px */
+  padding-bottom: 0.25rem;  /* 4px */
+  background-color: rgba(241, 245, 249, 0.1); /* Assumes 'muted' is cool gray 100 */
+  border-radius: 9999px;
+}

@@ -3,15 +3,17 @@ import "remixicon/fonts/remixicon.css";
 
 const Navbar = ({ theme, toggle_theme }) => {
   return (
-    <div className="w-full overflow-x-hidden bg-background text-foreground">
-      <header className="fixed top-0 left-0 w-full  z-50 transition-all duration-300 bg-background/90 backdrop-blur-md shadow-md transform-none">
-        <nav className="container-custom mx-auto flex items-center justify-between py-4 px-52 gap-8">
+    <div className="w-full overflow-x-hidden">
+      <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        theme === "dark" ? "bg-gray-800/90" : "bg-white/90"
+      } backdrop-blur-md shadow-md`}>
+        <nav className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8 lg:px-52 gap-8">
           <a href="#home" className="logo font-bold font-heading text-2xl">
             <span className="text-blue-700">P</span>
             arth
             <span className="text-blue-700">A</span>
           </a>
-          <ul className="flex gap-8 text-lg font-paragraph">
+          <ul className="hidden md:flex gap-6 lg:gap-10 opacity-80 text-base lg:text-lg font-paragraph">
             <li>
               <a href="#home" className="hover">
                 Home
@@ -24,7 +26,12 @@ const Navbar = ({ theme, toggle_theme }) => {
             </li>
             <li>
               <a href="#skills" className="hover">
-                Skill
+                Skills
+              </a>
+            </li>
+            <li>
+              <a href="#project" className="hover">
+                Projects
               </a>
             </li>
             <li>

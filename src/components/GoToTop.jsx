@@ -32,7 +32,7 @@ const GoToTop = () => {
       {isVisible && (
         <button
           onClick={goto}
-          className="bg-blue-500 p-2 rounded-full w-12 h-12 flex items-center justify-center ml-auto text-white animate-bounce fixed bottom-4 right-4 shadow-lg hover:bg-blue-600 transition-colors duration-300"
+          className="bg-blue-500 p-2 rounded-full w-12 h-12 flex items-center justify-center ml-auto text-white animate-bounce fixed bottom-4 right-4 shadow-lg hover:bg-blue-600 transition-colors duration-300 cursor-pointer"
         >
           <i className="ri-arrow-up-line font-semibold "></i>
         </button>
